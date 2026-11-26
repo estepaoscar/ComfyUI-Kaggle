@@ -19,7 +19,6 @@
 ## Configuraciones
 - Notebook principal (Kaggle): `notebooks/2026-11-20_comfyui_krea2_turbo_int8_kaggle_v4.ipynb`
 - Notebook Style Reference (Kaggle): `notebooks/2026-11-24_comfyui_krea2_turbo_style_ref_kaggle_v1.ipynb`
-- Notebook Style Reference (Kaggle): `notebooks/2026-11-24_comfyui_krea2_turbo_style_ref_kaggle_v1.ipynb`
 - Notebook Wan 2.2 TI2V 5B (Kaggle): `notebooks/2026-11-24_comfyui_wan2_2_ti2v5b_kaggle_v1.ipynb`
 - Workflow T2I (Kaggle): `workflows/image_krea2_turbo_t2i_int8-kaggle.json`
 - Workflow Style Reference (Kaggle): `workflows/image_krea2_turbo_int8_image_style_reference-kaggle.json`

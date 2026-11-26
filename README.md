@@ -6,7 +6,7 @@ Ejecución de **ComfyUI con Krea 2 Turbo INT8 ConvRot** en Kaggle Notebooks (GPU
 - **Plataforma**: Kaggle Notebooks (GPU T4, 16 GB VRAM)
 - **Framework**: ComfyUI
 - **Modelo principal**: Krea 2 Turbo INT8 ConvRot (~12.57 GB, 8 pasos, 12 GB VRAM)
-- **Modelos video**: LTX 2.5 I2V, Wan 2.2 TI2V 5B
+- **Modelo video**: Wan 2.2 TI2V 5B
 - **Túnel**: Cloudflare Tunnel (sin token, sin cuenta)
 - **Flag VRAM**: `--normalvram` (por defecto en T4)
 - **PyTorch**: 2.11.0+cu130
@@ -18,7 +18,6 @@ Ejecución de **ComfyUI con Krea 2 Turbo INT8 ConvRot** en Kaggle Notebooks (GPU
 |---------|-------------|
 | `2026-11-20_comfyui_krea2_turbo_int8_kaggle_v4.ipynb` | **T2I** — Text-to-Image con Krea 2 Turbo INT8 |
 | `2026-11-24_comfyui_krea2_turbo_style_ref_kaggle_v1.ipynb` | **Style Reference** — Imagen + referencia de estilo |
-| `2026-11-24_comfyui_ltx2_5_i2v_kaggle_v1.ipynb` | **LTX 2.5 I2V** — Image-to-Video |
 | `2026-11-24_comfyui_wan2_2_ti2v5b_kaggle_v1.ipynb` | **Wan 2.2 TI2V 5B** — Text+Image-to-Video |
 
 ### Workflows (`workflows/`)
@@ -26,7 +25,6 @@ Ejecución de **ComfyUI con Krea 2 Turbo INT8 ConvRot** en Kaggle Notebooks (GPU
 |---------|-------------|
 | `image_krea2_turbo_t2i_int8-kaggle.json` | Workflow T2I |
 | `image_krea2_turbo_int8_image_style_reference-kaggle.json` | Workflow Style Reference |
-| `video_ltx2_5_i2v-kaggle.json` | Workflow Video I2V |
 
 ### Configuración
 - `AGENTS.md` — Contexto del proyecto para Pi
